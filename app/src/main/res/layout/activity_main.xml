@@ -9,7 +9,21 @@
     tools:layout_editor_absoluteX="3dp"
     tools:layout_editor_absoluteY="0dp">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="336dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@drawable/tarjetancp"
+        tools:ignore="MissingConstraints" />
+
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
@@ -19,16 +33,15 @@
         android:textColor="#0D4CEA"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.035" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="133dp"
+        android:layout_height="21dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#EAEAEA"
         android:text="Clave de internet"
@@ -36,11 +49,12 @@
         android:textColor="#636262"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.237"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.467"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
@@ -50,23 +64,14 @@
         android:backgroundTint="#EAEAEA"
         android:text="Olvidé mi clave"
         android:textAlignment="center"
-        android:textColor="#FF5722"
+        android:textColor="#353030"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
-
-    <ImageView
-
-        android:layout_width="426dp"
-        android:layout_height="323dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/tarjeta"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="41dp"></ImageView>
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -75,10 +80,14 @@
         android:background="@drawable/carta"
         android:ems="10"
         android:inputType="textPersonName"
-        android:padding="4"
         android:text="4257"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName26"
@@ -87,10 +96,30 @@
         android:background="@drawable/carta"
         android:ems="10"
         android:inputType="textPersonName"
-        android:padding="4"
         android:text=""
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName24"
@@ -99,22 +128,14 @@
         android:background="@drawable/carta"
         android:ems="10"
         android:inputType="textPersonName"
-        android:padding="4"
         android:text=""
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="184dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName27"
-        android:layout_width="49dp"
-        android:layout_height="34dp"
-        android:background="@drawable/carta"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:padding="4"
-        android:text=""
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName13"
@@ -123,8 +144,14 @@
         android:background="@drawable/rectangle"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName17"
@@ -133,8 +160,13 @@
         android:background="@drawable/rectangle"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName18"
@@ -143,8 +175,13 @@
         android:background="@drawable/rectangle"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName20"
@@ -153,8 +190,12 @@
         android:background="@drawable/rectangle"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
 
     <EditText
         android:id="@+id/editTextTextPersonName19"
@@ -163,8 +204,13 @@
         android:background="@drawable/rectangle"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName21"
@@ -173,25 +219,44 @@
         android:background="@drawable/rectangle"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="268dp"
         android:layout_height="47dp"
         android:text="Siguiente"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="450dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
-        andorid
-        android:layout_width="174dp"
-        android:layout_height="30dp"
+        android:layout_width="181dp"
+        android:layout_height="20dp"
         android:text="No tengo clave de internet"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="519dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
